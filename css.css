@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 header {
@@ -24,17 +25,19 @@ header {
 }
 
 button {
-    display: inline-block;
     border: 1px solid transparent;
-    text-transform: capitalize;
     font-size: 20px;
-    font-weight: 500;
     border-radius: 30px;
     background-color: #fff;
     color: #3a414e;
-    transition: all .4s ease;
     margin-left: 10px;
 }
+.main2 button{border: 1px solid black}
+button:hover {
+    background: #221958;
+    border: 1px solid white;
+    color: white;
+  }
 
 .main {
     height: calc(100vh - 80px);
@@ -88,20 +91,16 @@ button {
     display: flex;
     margin: 0 auto;
     max-width: 1140px;
+    margin-bottom: 250px;
 }
-.card{
-    padding: 30px 35px;
-    border: 0;
-    border-radius: 0;
-    background: #faf9ff;
-    text-align: left;
-    max-width: 1140px;
-   
-}
+
 .c4 {
-    position: relative;
     width: 100%;
-    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+}
+.main2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
 }

@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 header {
@@ -91,16 +91,68 @@ button:hover {
     display: flex;
     margin: 0 auto;
     max-width: 1140px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
+    
 }
+.row div:hover{
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1);
+    box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1)
+    }
 
-.c4 {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+.card {
+    text-align: center;
+    background-color: #faf9ff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.section2 {
+     background-color: #faf9ff; 
+     align-items: center;
 }
 .main2 {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    margin-top: 200px;
+}
+.row div:hover{
+    border: 0.1px solid rgba(0, 0, 0, 0.125);
+   -webkit-box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1);
+   box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1)
+}
+.features{
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+}
+.main3{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 70px;
+    
+}
+.card2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.card2 div{
+    width: 200px;
+    height: 200px;
+    background-color: #faf9ff;
+    text-align: center;
+}
+.card2 div:hover{
+    border: 0.1px solid rgba(0, 0, 0, 0.125);
+   -webkit-box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1);
+   box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1)
+}
+.card2 div:nth-child(even){
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.img3{
+    margin-left: 100px;
 }

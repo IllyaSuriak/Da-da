@@ -8,6 +8,7 @@ body {
 header {
     background-color: #221958;
     height: 80px;
+    position: fixed;
 }
 
 .container {

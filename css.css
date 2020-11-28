@@ -135,6 +135,7 @@ button:hover {
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 70px;
+    margin-bottom: 100px;
     
 }
 .card2{
@@ -160,3 +161,15 @@ button:hover {
 .img3{
     margin-left: 100px;
 }
+.c4{
+    background-color: #faf9ff;
+    padding-top: 100px;
+}
+.main4{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.main4 img{padding-right: 50px;}
+.main4 button{border: 1px solid black

@@ -3,7 +3,12 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    color: #797979;
 }
+h1{color: #3a413e;}
+.card3 h2{color: #3a413e;}
+.main h1{color: white;}
+
 
 header {
     background-color: #221958;
@@ -168,8 +173,42 @@ button:hover {
 .main4{
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    
+    display: flex;  
 }
 .main4 img{padding-right: 50px;}
-.main4 button{border: 1px solid black
+.main4 button{border: 1px solid black}
+.ChooseYourPlan{
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+}
+.main5{
+    display: flex;
+    padding-top: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card3 {
+    max-width: 350px;
+    text-align: center;
+    width: 100%;
+    max-height: 650px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #faf9ff;
+}
+.card3 h2{font-size: 60px;}
+.card3 h1{font-size: 27px;}
+.card3:hover{
+    border: 0.1px solid rgba(0, 0, 0, 0.125);
+   -webkit-box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1);
+   box-shadow: 0px 15px 30px 0px rgba(33, 22, 106, 0.1)
+}
+.card3 button{border: 1px solid black}
+.c5{border-bottom: 1px solid #ebebeb;}
+.c6 {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
